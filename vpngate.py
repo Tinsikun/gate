@@ -460,7 +460,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "linear.app:8443,images.chesscomfiles.com:8443,www.blibli.com:8443,www.shopify.com:8443,constitution.congress.gov:8443,www.sloomb.com:8443,spring.io:8443,tinyurl.com:8443,www.giannidelprete.it:8443,m.iyf.tv:8443,securecircle.com:8443,www.speedtest.net:8443,login.rockwellautomation.com:8443,www.trumpinternationalrealty.com:8443,themeisle.com:8443,chrono24.com:8443,email.lg.com:8443,99.co:8443,saas.072159.xyz:443,hzytjy.cn:443,ali.nonull.pp.ua:443,auto.dolby.dpdns.org:443,"
+        "uspto.gov:443,constitution.congress.gov:443,www.speedtest.net:443,dynadot.com:443,www.trumpinternationalrealty.com:443,newsroom.avalara.com:443,www.hypixel.net:443,api-scout.reflexapi.net:443,www.leics.police.uk:443,www.dbs.com.sg:443,jobsdb.com:443,eii.at:443,bbs.alipansou.com:443,academy.7shifts.com:443,auto.dolby.dpdns.org:443,yong.880805.xyz:443,skk.moe:443,www.people.inc:443,neko.cloudd.eu.org:443,versantstore.pearson.com:443,icook.hk:443,mail.notion.com:443,"
         "cdn.cnno.de:443,saas.sin.fan:443,cf.777791.xyz:443",
     ).split(",")
     if h.strip()
